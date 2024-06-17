@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BreakingBadApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="White" translatesAutoresizingMaskIntoConstraints="NO" id="qG8-wX-kms">
+                                <rect key="frame" x="40" y="300" width="310" height="259"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="259" id="cxT-sc-Zc6"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPG-hf-M0S">
+                                <rect key="frame" x="140" y="710.35884186697763" width="109.99999999999991" height="50.999999999999886"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="sLW-fp-swh"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Change">
+                                    <color key="baseBackgroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="Change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rB6-Al-Tll"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Breaking Bad App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teE-U0-89J">
+                                <rect key="frame" x="0.0" y="83.3588418669774" width="390" height="103.99999999999997"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="104" id="2A2-xc-WVj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NPG-hf-M0S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="4AT-sK-2ZY"/>
+                            <constraint firstItem="qG8-wX-kms" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="HIb-sm-v0H"/>
+                            <constraint firstItem="teE-U0-89J" firstAttribute="centerX" secondItem="qG8-wX-kms" secondAttribute="centerX" id="ODj-P6-XPU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NPG-hf-M0S" secondAttribute="bottom" constant="90" id="bao-Ly-X84"/>
+                            <constraint firstItem="teE-U0-89J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jTC-t0-DM2"/>
+                            <constraint firstItem="qG8-wX-kms" firstAttribute="top" secondItem="teE-U0-89J" secondAttribute="bottom" constant="89" id="u2F-Bm-UIc"/>
+                            <constraint firstItem="qG8-wX-kms" firstAttribute="centerX" secondItem="NPG-hf-M0S" secondAttribute="centerX" id="uPd-uH-wmm"/>
+                            <constraint firstItem="teE-U0-89J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x3m-OY-p2E"/>
+                            <constraint firstItem="teE-U0-89J" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="yde-4a-Hrv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="BreakingBadLabel" destination="teE-U0-89J" id="lHJ-Dq-t1u"/>
+                        <outlet property="İmageView" destination="qG8-wX-kms" id="j39-3h-uxW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.53846153846153" y="3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="White" width="500" height="313"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

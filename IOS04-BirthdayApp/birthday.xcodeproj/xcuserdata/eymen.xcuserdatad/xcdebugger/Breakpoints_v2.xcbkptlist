@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "37503BE8-BA0D-4C4B-BF85-1DC7BE3B202A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0B6D19B-0739-463D-ACD9-72F120E94B14"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "birthday/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "deleteClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A0B6D19B-0739-463D-ACD9-72F120E94B14 - 2bd2c39109af44cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "birthday.ViewController.deleteClicked(Any) -&gt; ()"
+                  moduleName = "birthday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eymen/Desktop/IOS/IOS%20Projects/birthday/birthday/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "A0B6D19B-0739-463D-ACD9-72F120E94B14 - 2bd2c39109af44cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "birthday.ViewController.deleteClicked(Any) -&gt; ()"
+                  moduleName = "birthday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eymen/Desktop/IOS/IOS%20Projects/birthday/birthday/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
